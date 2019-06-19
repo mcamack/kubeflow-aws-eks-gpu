@@ -1,12 +1,8 @@
 # kubeflow-aws-eks-gpu
 
 ## Dependencies
-Install kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl
-Install awscli
-Install eksctl
-Install aws-iam-authenticator
-Install jq
-Install ksonnet
+Install kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl  
+Install awscli, eksctl, aws-iam-authenticator, jq, ksonnet
 
 ## AWS Setup
 `aws configure` and enter access key ID, secret, region, default output
