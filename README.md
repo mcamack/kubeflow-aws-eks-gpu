@@ -17,3 +17,11 @@ Install awscli, eksctl, aws-iam-authenticator, jq, ksonnet
 * AWS_CLUSTER_NAME - Specify a unique name for your Amazon EKS cluster.
 * KFAPP - Use a relative directory name here rather than absolute path, such as kfapp.
 * REGION - Use the AWS Region you want to create your cluster in.
+
+## Local Setup
+Install vagrant and virtual box
+```
+vagrant init arrikto/minikf
+vagrant up
+```
+visit http://10.10.10.10
