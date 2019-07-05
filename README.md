@@ -9,11 +9,12 @@ Install awscli, eksctl, aws-iam-authenticator, jq, ksonnet
 
 ## Kubeflow Installation
 
-### Customize EKS Cluster
+### Customize EKS Cluster Parameters
 * Edit instance types and other cluster details in:
 `files/cluster_config.yaml`
 
-### run init_kubeflow.sh
+### Launch EKS Cluster with Kubeflow
+run `init_kubeflow.sh`
 * AWS_CLUSTER_NAME - Specify a unique name for your Amazon EKS cluster.
 * KFAPP - Use a relative directory name here rather than absolute path, such as kfapp.
 * REGION - Use the AWS Region you want to create your cluster in.
